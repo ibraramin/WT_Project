@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Recipeezz</title>
+    <link rel="stylesheet" href="../css/contact.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="logo-container">
+            <a href="landing-page.html" class="logo">Recipeezz</a>
+        </div>
+    </header>
+
+    <main class="contact-main">
+        <div class="contact-content-wrapper">
+            <div class="contact-header">
+                <h1>Get In Touch</h1>
+                <p>We are always trying to improve, if you have any recommendations and isssues, feel free to reach out !!.</p>
+            </div>
+
+            <div class="contact-form">
+                <div class="contact-info">
+                    <h2>Contact Information</h2>
+                    <p><i class="fa fa-map-marker"></i> <strong>Address:</strong><br>Dahak 1229, AIUB Bangladesh<br>Dhaka
+                        1212, Bangladesh</p>
+                    <p><i class="fa fa-phone"></i> <strong>Phone:</strong><br><a href="tel:1234567890">+880 123 456
+                            7890</a></p>
+                    <p><i class="fa fa-envelope"></i> <strong>Email:</strong><br><a
+                            href="#">example@fod.com</a></p>
+
+                    <h2>Find Us Here</h2>
+                    <div class="map-container">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d467329.1162798955!2d90.10071457498578!3d23.78084932019696!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b8b087026b81%3A0x8fa563bbdd5904c2!2sDhaka%2C%20Bangladesh!5e0!3m2!1sen!2sus!4v1715375000000"
+                            width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
+                    </div>
+                </div>
+
+                <div class="contact-form-section">
+                    <h2>Send Us a Message</h2>
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="fullName">Full Name</label>
+                            <input type="text" id="fullName" name="fullName" required>
+                            <p class="error-message" id="fullNameError"></p>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" required>
+                            <p class="error-message" id="emailError"></p>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" name="subject" required>
+                            <p class="error-message" id="subjectError"></p>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Your Message</label>
+                            <textarea id="message" name="message" rows="6" required></textarea>
+                            <p class="error-message" id="messageError"></p>
+                        </div>
+                        <button type="submit" class="btn-submit-message">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="page-footer">
+        <p>&copy; 2025 Recipeezz. Made By Ibrar Amin & Soumodip Madhu</p>
+    </footer>
+
+    <script src="../js/contact.js"></script>
+</body>
+
+</html>
