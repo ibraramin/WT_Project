@@ -33,16 +33,6 @@
     <div class = "signup-form-container-container">
     <div class = "signup-form-container">
             <h1>Create your new Recipeezz Account</h1>
-
-            <?php
-            if (isset($_GET['error'])) {
-                echo '<div class="php-message php-error">' . htmlspecialchars($_GET['error']) . '</div>';
-            }
-            if (isset($_GET['success'])) {
-                echo '<div class="php-message php-success">' . htmlspecialchars($_GET['success']) . '</div>';
-            }
-            ?>
-
             <form  id    = "signupForm" action = "../../controller/signup-process.php" method = "POST" novalidate>
             <div   class = "input-field">
             <label for   = "name">Full Name</label>

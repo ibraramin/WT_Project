@@ -16,7 +16,7 @@
             <li><a href="#">About</a></li>
             <li><a href="contact.html" class="nav-button">Contact Us</a></li> </ul>
         <ul class="login-signup-links">
-            <li><a href="login.html" class="nav-button">Login</a></li> <li><a href="signup.php" class="nav-button">Signup</a></li> </ul>
+            <li><a href="login.php" class="nav-button">Login</a></li> <li><a href="signup.php" class="nav-button">Signup</a></li> </ul>
     </nav>
 </header>
 <body>
@@ -44,6 +44,6 @@
         <p>© 2025 Recipeezz. Made By Ibrar Amin & Soumodip Madhu</p>
     </footer>
 
-    <!-- <script src="../../controller/login-check.js"> </script> -->
+    <script src="../../controller/login-check.js"> </script>
 </body>
 </html>
