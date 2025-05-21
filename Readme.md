@@ -9,46 +9,45 @@ Recipeezz is a comprehensive recipe management application designed to help user
 
 ### 1. Main Features:
 
-- **[]Landing Page : ** Ibrar
-- **[]Registration : ** Ibrar
-- **[]Login : ** Ibrar
-- **[]Contact Us : ** Ibrar
-- **[]Dashboard : ** Ibrar
-- **[]Review : ** Madhu
-- **[]Search : ** Madhu
-- **[]Notification : ** Madhu
-- **[]Meal Planning: ** Madhu
-- **[]Profile : ** Madhu
-- **[]Data Export : ** Madhu
+- [x]Landing Page : Ibrar
+- [x]Registration : Ibrar
+- [x]Login : Ibrar
+- [x]Contact Us :Ibrar
+- [x]Dashboard : Ibrar
+- []Review : Madhu
+- []Search : Madhu
+- []Notification : Madhu
+- []Meal Planning: Madhu
+- []Profile : Madhu
+- []Data Export : Madhu
 
 ### 2. Common Features:
 
 - **Madhu:**
-  _[]Notifications
-  _[]Profile
-  _[]Search & Filter
-  _[]Form Validation
-  \*[]Data Export
+  []Notifications
+  []Profile
+  []Search & Filter
+  []Form Validation
+  []Data Export
 - **Ibrar:**
-  _[]Authentication
-  _[]Dashboard
-  _[]Contact Us
-  _[]Landing Page
-  \*[]Form Validation
+  [x]Authentication
+  [x]Dashboard
+  [x]Contact Us
+  [x]Landing Page
+  [x]Form Validation
 
 ### 3. Unique Features
 
 - **Madhu:**
-  _[]Meal Planning
-  _[]Rating System
-  _[]Recipe Database
-  _[]Nutritional Info
-  \*[]Cooking Timer
+  []Meal Planning
+  []Rating System
+  []Recipe Database
+  []Nutritional Info
+  []Cooking Timer
 - **Ibrar:**
-  _[]Category Filter
-  _[]Seasonal Suggestions
-  _[]Conversion calculator
-  _[]Print Friendly View
-  \*[]Shopping List
+  [x]Category Filter
+  [x]Seasonal Suggestions
+  [x]Conversion calculator
+  [x]Print Friendly View
+  [x]Shopping List
 
----
