@@ -1,16 +1,15 @@
 <?php
 session_start();
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    $errorsFound = false;
     $email       = "";
     $password    = "";
     $error = false;
     if (empty($_POST["email"])) {
-        echo "Email Address is required.<br>";
+        echo "Email Address is required.";
         $error = true;
     }
     if (empty($_POST["password"])) {
-        echo "Password is required.<br>";
+        echo "Password is required.";
         $error = true;
     }
 
@@ -20,3 +19,4 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         header("Location: ../view/html/dashboard.php");
     }
 }
+?>

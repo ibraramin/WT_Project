@@ -6,34 +6,36 @@ if (!isset($_SESSION['user_logged_in'])) {
 }
 ?>
 <!DOCTYPE html>
-<html lang = "eng">
+<html lang="eng">
 
 <head>
-    <meta charset = "UTF-8">
-    <meta name    = "viewport" content = "width=device-width initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width initial-scale=1.0">
     <title> Recipeezz Landing page</title>
-    <link rel = "stylesheet" href = "../css/landing-page.css">
-    <link rel = "stylesheet" href = "../css/dashboard.css">
+    <link rel="stylesheet" href="../css/landing-page.css">
+    <link rel="stylesheet" href="../css/dashboard.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 </head>
 <header>
     <nav>
-        <a  href  = "landing-page.html" class = "logo">Recipeezz</a>
-        <ul class = "header-links">
+        <a href="dashboard.php" class="logo">Recipeezz</a>
+        <ul class="header-links">
             <li>
-                <a href = "category.php"> Category</a>
+                <a href="category.php"> Category</a>
             </li>
             <li>
-                <a href = "#"> Season</a>
+                <a href="season.php"> Season</a>
             </li>
             <li>
-                <a href = "conversion.php"> Conversion</a>
+                <a href="conversion.php"> Conversion</a>
             </li>
             <li>
-                <a href = "shopping.php"> Shopping</a>
+                <a href="shopping.php"> Shopping</a>
             </li>
         </ul>
-        <div class = "nav-right-section">
-        <div class = "user-profile-display">
+        <div class="nav-right-section">
+            <div class="user-profile-display">
                 <img src="../assets/images/default-profile.png" alt="Profile" class="profile-image-circle">
                 <div class="user-info">
                     <span class="username">

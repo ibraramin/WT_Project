@@ -16,20 +16,22 @@ if (!isset($_SESSION['user_logged_in']) || $_SESSION['user_logged_in'] !== true)
     <link rel="stylesheet" href="../css/landing-page.css">
     <link rel="stylesheet" href="../css/dashboard.css">
     <link rel="stylesheet" href="../css/conversion.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 </head>
 <header>
     <nav>
-        <a href="landing-page.html" class="logo">Recipeezz</a>
+        <a href="dashboard.php" class="logo">Recipeezz</a>
         <ul class="header-links">
 
             <li>
-                <a href="#"> Category</a>
+                <a href="category.php"> Category</a>
             </li>
             <li>
-                <a href="#"> Season</a>
+                <a href="season.php"> Season</a>
             </li>
             <li>
-                <a href="#"> Conversion</a>
+                <a href="conversion.php"> Conversion</a>
             </li>
 
             <li>
