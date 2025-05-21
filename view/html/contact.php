@@ -1,31 +1,42 @@
 <!DOCTYPE html>
-<html lang="eng">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Recipeezz Contact Us</title>
-    <link rel = "stylesheet" href = "../css/common.css">
-    <link rel = "stylesheet" href = "../css/contact.css">
-    <link rel = "stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-</head>
-<header>
-    <nav>
-        <div class="logo">Recipeezz</div>
-        <ul class="header-links">
-            <li><a href="#">Features</a></li>
-            <li><a href="#">Popular</a></li>
-            <li><a href="#">Review</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="contact.html" class="nav-button">Contact Us</a></li>
-        </ul>
-        <ul class="login-signup-links">
-            <li><a href="login.html" class="nav-button">Login</a></li>
-            <li><a href="signup.php" class="nav-button">Signup</a></li>
-        </ul>
-    </nav>
-</header>
+<html lang = "eng">
+    <head>
+        <meta charset = "UTF-8">
+        <meta name    = "viewport" content = "width=device-width initial-scale=1.0">
+        <title> Recipeezz Landing page</title>
+        <link rel = "stylesheet" href = "../css/landing-page.css">
+        <link rel = "stylesheet" href = "../css/contact.css">
+    </head>
+    <header>
+        <nav>
+            <a  href  = "landing-page.html" class = "logo">Recipeezz</a>
+            <ul class = "header-links">
+                <li>
+                    <a href = "#features"> Features</a>
+                </li>
+                <li>
+                    <a href = "#popular-recipes"> Popular</a>
+                </li>
+                <li>
+                    <a href = "#user-reviews"> Review</a>
+                </li>
+                <li>
+                    <a href = "#about"> About</a>
+                </li>
+                <li>
+                    <a href = "contact.php" class = "nav-button"> Contact Us</a>
+                </li>
+            </ul>
+            <ul class="login-signup-links">
+                <li>
+                    <a href="../html/login.php" class="nav-button"> Login</a>
+                </li>
+                <li>
+                    <a href="../html/signup.php" class="nav-button"> Signup</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
 
 <body>
     <div class="contact-main">
@@ -42,7 +53,6 @@
                     <i class="fa fa-map-marker"></i>
                     <strong>Address:</strong><br>
                     Dahak 1229, AIUB Bangladesh<br>
-                    Dhaka 1212, Bangladesh
                 </p>
                 <p>
                     <i class="fa fa-phone"></i>
@@ -57,9 +67,7 @@
                 <h2>Find Us Here</h2>
                 <div class="map-container">
                     <iframe
-                        src="https://maps.google.com/maps?q=AIUB&hl=es&z=14&amp;output=embed" width="100%" height="300" style="border:0;"
-                        allowfullscreen="" loading="lazy"
-                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        src="https://maps.google.com/maps?q=AIUB&hl=es&z=14&amp;output=embed"></iframe>
                 </div>
             </div>
             <div class="contact-form">

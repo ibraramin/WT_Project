@@ -21,8 +21,8 @@
             <li><a href="contact.html" class="nav-button">Contact Us</a></li>
         </ul>
         <ul class="login-signup-links">
-            <li><a href="#" class="nav-button">Login</a></li>
-            <li><a href="#" class="nav-button">Signup</a></li>
+            <li><a href="login.php" class="nav-button">Login</a></li>
+            <li><a href="signup.php" class="nav-button">Signup</a></li>
         </ul>
     </nav>
 </header>

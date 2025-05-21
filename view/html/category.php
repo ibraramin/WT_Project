@@ -38,9 +38,6 @@ if (!isset($_SESSION['user_logged_in'])) {
             <div class="user-profile-display">
                 <img src="../assets/images/default-profile.png" alt="Profile" class="profile-image-circle">
                 <div class="user-info">
-                    <span class="username">
-                        <?php echo isset($_SESSION['user_email']) ? htmlspecialchars($_SESSION['user_email']) : 'User'; ?>
-                    </span>
                     <a href="profile.php" class="profile-link-nav">View Profile</a>
                 </div>
             </div>
@@ -61,79 +58,79 @@ if (!isset($_SESSION['user_logged_in'])) {
         <section class="dashboard-section" id="cuisine-filter">
             <h2>Cuisine Type</h2>
             <ul class="styled-list">
-                <li><input type="checkbox" id="cuisine-italian" name="cuisine[]" value="italian">
+                <li><input type="checkbox" id="cuisine-italian" name="cuisine" value="italian">
                     <label for="cuisine-italian">Italian</label>
                 </li>
-                <li><input type="checkbox" id="cuisine-mexican" name="cuisine[]" value="mexican">
+                <li><input type="checkbox" id="cuisine-mexican" name="cuisine" value="mexican">
                     <label for="cuisine-mexican">Mexican</label>
                 </li>
-                <li><input type="checkbox" id="cuisine-indian" name="cuisine[]" value="indian">
+                <li><input type="checkbox" id="cuisine-indian" name="cuisine" value="indian">
                     <label for="cuisine-indian">Indian</label>
                 </li>
-                <li><input type="checkbox" id="cuisine-japanese" name="cuisine[]" value="japanese">
+                <li><input type="checkbox" id="cuisine-japanese" name="cuisine" value="japanese">
                     <label for="cuisine-japanese">Japanese</label>
                 </li>
-                <li><input type="checkbox" id="cuisine-american" name="cuisine[]" value="american">
+                <li><input type="checkbox" id="cuisine-american" name="cuisine" value="american">
                     <label for="cuisine-american">American</label>
                 </li>
-                <li><input type="checkbox" id="cuisine-chinese" name="cuisine[]" value="chinese">
+                <li><input type="checkbox" id="cuisine-chinese" name="cuisine" value="chinese">
                     <label for="cuisine-chinese">Chinese</label>
                 </li>
-                <li><input type="checkbox" id="cuisine-french" name="cuisine[]" value="french">
+                <li><input type="checkbox" id="cuisine-french" name="cuisine" value="french">
                     <label for="cuisine-french">French</label>
                 </li>
-                <li><input type="checkbox" id="cuisine-thai" name="cuisine[]" value="thai">
+                <li><input type="checkbox" id="cuisine-thai" name="cuisine" value="thai">
                     <label for="cuisine-thai">Thai</label>
                 </li>
-                <li><input type="checkbox" id="cuisine-spanish" name="cuisine[]" value="spanish">
+                <li><input type="checkbox" id="cuisine-spanish" name="cuisine" value="spanish">
                     <label for="cuisine-spanish">Spanish</label>
                 </li>
-                <li><input type="checkbox" id="cuisine-greek" name="cuisine[]" value="greek">
+                <li><input type="checkbox" id="cuisine-greek" name="cuisine" value="greek">
                     <label for="cuisine-greek">Greek</label>
                 </li>
-                <li><input type="checkbox" id="cuisine-korean" name="cuisine[]" value="korean">
+                <li><input type="checkbox" id="cuisine-korean" name="cuisine" value="korean">
                     <label for="cuisine-korean">Korean</label>
                 </li>
-                <li><input type="checkbox" id="cuisine-mediterranean" name="cuisine[]" value="mediterranean">
+                <li><input type="checkbox" id="cuisine-mediterranean" name="cuisine" value="mediterranean">
                     <label for="cuisine-mediterranean">Mediterranean</label>
                 </li>
-                <li><input type="checkbox" id="cuisine-vietnamese" name="cuisine[]" value="vietnamese">
+                <li><input type="checkbox" id="cuisine-vietnamese" name="cuisine" value="vietnamese">
                     <label for="cuisine-vietnamese">Vietnamese</label>
                 </li>
-                <li><input type="checkbox" id="cuisine-moroccan" name="cuisine[]" value="moroccan">
+                <li><input type="checkbox" id="cuisine-moroccan" name="cuisine" value="moroccan">
                     <label for="cuisine-moroccan">Moroccan</label>
                 </li>
-                <li><input type="checkbox" id="cuisine-lebanese" name="cuisine[]" value="lebanese">
+                <li><input type="checkbox" id="cuisine-lebanese" name="cuisine" value="lebanese">
                     <label for="cuisine-lebanese">Lebanese</label>
                 </li>
-                <li><input type="checkbox" id="cuisine-turkish" name="cuisine[]" value="turkish">
+                <li><input type="checkbox" id="cuisine-turkish" name="cuisine" value="turkish">
                     <label for="cuisine-turkish">Turkish</label>
                 </li>
-                <li><input type="checkbox" id="cuisine-brazilian" name="cuisine[]" value="brazilian">
+                <li><input type="checkbox" id="cuisine-brazilian" name="cuisine" value="brazilian">
                     <label for="cuisine-brazilian">Brazilian</label>
                 </li>
-                <li><input type="checkbox" id="cuisine-caribbean" name="cuisine[]" value="caribbean">
+                <li><input type="checkbox" id="cuisine-caribbean" name="cuisine" value="caribbean">
                     <label for="cuisine-caribbean">Caribbean</label>
                 </li>
-                <li><input type="checkbox" id="cuisine-african" name="cuisine[]" value="african">
+                <li><input type="checkbox" id="cuisine-african" name="cuisine" value="african">
                     <label for="cuisine-african">African</label>
                 </li>
-                <li><input type="checkbox" id="cuisine-fusion" name="cuisine[]" value="fusion">
+                <li><input type="checkbox" id="cuisine-fusion" name="cuisine" value="fusion">
                     <label for="cuisine-fusion">Fusion</label>
                 </li>
-                <li><input type="checkbox" id="cuisine-british" name="cuisine[]" value="british">
+                <li><input type="checkbox" id="cuisine-british" name="cuisine" value="british">
                     <label for="cuisine-british">British</label>
                 </li>
-                <li><input type="checkbox" id="cuisine-german" name="cuisine[]" value="german">
+                <li><input type="checkbox" id="cuisine-german" name="cuisine" value="german">
                     <label for="cuisine-german">German</label>
                 </li>
-                <li><input type="checkbox" id="cuisine-irish" name="cuisine[]" value="irish">
+                <li><input type="checkbox" id="cuisine-irish" name="cuisine" value="irish">
                     <label for="cuisine-irish">Irish</label>
                 </li>
-                <li><input type="checkbox" id="cuisine-persian" name="cuisine[]" value="persian">
+                <li><input type="checkbox" id="cuisine-persian" name="cuisine" value="persian">
                     <label for="cuisine-persian">Persian</label>
                 </li>
-                <li><input type="checkbox" id="cuisine-swedish" name="cuisine[]" value="swedish">
+                <li><input type="checkbox" id="cuisine-swedish" name="cuisine" value="swedish">
                     <label for="cuisine-swedish">Swedish</label>
                 </li>
             </ul>

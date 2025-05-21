@@ -85,7 +85,7 @@ nav ul {
   flex-direction: column;
   border-radius: 20px;
   width: 100%;
-  max-width: 1500px;
+  max-width: 1000px;
   justify-content: center;
   margin: 0 auto;
   background-color: #ffffff;
@@ -171,9 +171,9 @@ nav ul {
   line-height: 1.5;
 }
 
-.form-group input[type="text"]:focus,
-.form-group input[type="email"]:focus,
-.form-group textarea:focus {
+.form-group input[type="text"]:hover,
+.form-group input[type="email"]:hover,
+.form-group textarea:hover {
   border-color: #ff6347;
   outline: none;
   box-shadow: 0 0 0 2px rgba(255, 99, 71, 0.2);
@@ -222,3 +222,4 @@ footer {
   margin-top: 2px;
   min-height: 1em;
 }
+
