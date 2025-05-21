@@ -20,16 +20,13 @@ if (!isset($_SESSION['user_logged_in'])) {
         <a href="landing-page.html" class="logo">Recipeezz</a>
         <ul class="header-links">
             <li>
-                <a href="#"> Recipes</a>
-            </li>
-            <li>
-                <a href="#"> Category</a>
-            </li>
-            <li>
-                <a href="conversion.php"> Conversion</a>
+                <a href="category.php"> Category</a>
             </li>
             <li>
                 <a href="#"> Season</a>
+            </li>
+            <li>
+                <a href="conversion.php"> Conversion</a>
             </li>
             <li>
                 <a href="shopping.php"> Shopping</a>
