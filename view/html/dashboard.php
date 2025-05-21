@@ -39,7 +39,7 @@ if (!isset($_SESSION['user_logged_in'])) {
                 <img src="../assets/images/default-profile.png" alt="Profile" class="profile-image-circle">
                 <div class="user-info">
                     <span class="username">
-                        <?php echo isset($_SESSION['user_email']) ? htmlspecialchars($_SESSION['user_email']) : 'User'; ?>
+                        <?php echo htmlspecialchars($_COOKIE["email"]) ?>
                     </span>
                     <a href="profile.php" class="profile-link-nav">View Profile</a>
                 </div>

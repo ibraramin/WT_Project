@@ -19,30 +19,33 @@ if (!isset($_SESSION['user_logged_in'])) {
 </head>
 <header>
     <nav>
-        <a href="dashboard.php" class="logo">Recipeezz</a>
-        <ul class="header-links">
+        <a  href  = "dashboard.php" class = "logo">Recipeezz</a>
+        <ul class = "header-links">
             <li>
-                <a href="category.php"> Category</a>
+                <a href = "category.php"> Category</a>
             </li>
             <li>
-                <a href="season.php"> Season</a>
+                <a href = "season.php"> Season</a>
             </li>
             <li>
-                <a href="conversion.php"> Conversion</a>
+                <a href = "conversion.php"> Conversion</a>
             </li>
             <li>
-                <a href="shopping.php"> Shopping</a>
+                <a href = "shopping.php"> Shopping</a>
             </li>
         </ul>
-        <div class="nav-right-section">
-            <div class="user-profile-display">
-                <img src="../assets/images/default-profile.png" alt="Profile" class="profile-image-circle">
-                <div class="user-info">
-                    <a href="profile.php" class="profile-link-nav">View Profile</a>
+        <div  class = "nav-right-section">
+        <div  class = "user-profile-display">
+        <img  src   = "../assets/images/default-profile.png" alt = "Profile" class = "profile-image-circle">
+        <div  class = "user-info">
+        <span class = "username">
+                        <?php echo htmlspecialchars($_COOKIE["email"]) ?>
+                    </span>
+                    <a href = "profile.php" class = "profile-link-nav">View Profile</a>
                 </div>
             </div>
-            <ul class="nav-actions">
-                <li><a href="../../controller/logout.php" class="nav-button nav-button-logout">Logout</a></li>
+            <ul    class = "nav-actions">
+            <li><a href  = "../../controller/logout.php" class = "nav-button nav-button-logout">Logout</a></li>
             </ul>
         </div>
     </nav>

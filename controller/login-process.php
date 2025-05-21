@@ -15,8 +15,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     if (!$error) {
         $_SESSION['user_logged_in'] = true;
-        $_SESSION['user_email']     = $user_email;
+        $_SESSION['user_email']     = $email;
+        $email                      = $_POST["email"];
+        setcookie("email", $email, time() + 10000, "/");
         header("Location: ../view/html/dashboard.php");
     }
 }
-?>
