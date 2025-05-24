@@ -47,6 +47,6 @@
         <p>© 2025 Recipeezz. Made By Ibrar Amin & Soumodip Madhu</p>
     </footer>
 
-    <!-- <script src="../../controller/login-check.js"> </script> -->
+    <script src="../../controller/login-check.js"> </script>
 </body>
 </html>

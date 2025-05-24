@@ -1,9 +1,9 @@
 <?php
 session_start();
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    $email       = "";
-    $password    = "";
-    $error = false;
+    $email    = "";
+    $password = $_POST["password"];
+    $error    = false;
     if (empty($_POST["email"])) {
         echo "Email Address is required.";
         $error = true;
@@ -11,6 +11,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     if (empty($_POST["password"])) {
         echo "Password is required.";
         $error = true;
+    }
+
+    if (strlen($password) < 6) {
+        echo "Password has to be more than 6 characters long";
     }
 
     if (!$error) {
