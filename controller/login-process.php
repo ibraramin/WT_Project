@@ -1,7 +1,9 @@
 <?php
+require_once "../model/startdb.php";
+require_once "../model/user.php";
 session_start();
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    $email    = "";
+    $email = $_POST["email"];
     $password = $_POST["password"];
     $error    = false;
     if (empty($_POST["email"])) {
@@ -17,11 +19,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         echo "Password has to be more than 6 characters long";
     }
 
-    if (!$error) {
+    if (matchPass($conn, $email, $password)) {
         $_SESSION['user_logged_in'] = true;
         $_SESSION['user_email']     = $email;
-        $email                      = $_POST["email"];
         setcookie("email", $email, time() + 10000, "/");
         header("Location: ../view/html/dashboard.php");
+    } else {
+        header("Location:../view/html/login.php");
     }
 }

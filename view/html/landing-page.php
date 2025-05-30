@@ -1,50 +1,18 @@
 <!DOCTYPE html>
 <html lang="eng">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width initial-scale=1.0">
-        <title> Recipeezz Landing page</title>
-        <link rel="stylesheet" href="../css/landing-page-light.css" id="theme-stylesheet">
-    </head>
-    <header>
-        <nav>
-            <a href="landing-page.html" class="logo">Recipeezz</a>
-            <ul class="header-links">
-                <li>
-                    <a href="#features"> Features</a>
-                </li>
-                <li>
-                    <a href="#popular-recipes"> Popular</a>
-                </li>
-                <li>
-                    <a href="#user-reviews"> Review</a>
-                </li>
-                <li>
-                    <a href="#about"> About</a>
-                </li>
-                <li>
-                    <a href="contact.php" class="nav-button"> Contact Us</a>
-                </li>
-            </ul>
-            <div class="nav-controls">
-                <div class="theme-switch-container">
-                    <label class="theme-switch" for="theme-toggle">
-                        <input type="checkbox" id="theme-toggle">
-                        <span class="slider"></span>
-                    </label>
-                </div>
-                <ul class="login-signup-links">
-                    <li>
-                        <a href="../html/login.php" class="nav-button"> Login</a>
-                    </li>
-                    <li>
-                        <a href="../html/signup.php" class="nav-button"> Signup</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-    </header>
-    <body>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width initial-scale=1.0">
+    <title> Recipeezz Landing page</title>
+    <link rel="stylesheet" href="../css/common.css" id="theme-stylesheet">
+    <link rel="stylesheet" href="../css/landing-page-light.css" id="theme-stylesheet">
+</head>
+<!-- Added the header in a different file to reduce code duplication -->
+<?php require_once "header.php"; ?>
+
+<body>
+    <main class="main-content">
         <section class="hero">
             <div class="hero-left">
                 <h1 class="hero-title"> Recipeezz</h1>
@@ -128,19 +96,18 @@
                 tools for meal planning, nutritional information, and much more to inspire your everyday cooking.
             </p>
         </section>
-        <section class="signup">
-            <a id="signup-nav"></a>
+        <section class = "signup">
+        <a       id    = "signup-nav"></a>
             <h2>Ready to Get Started?</h2>
             <p>
                 Sign up today to unlock all the amazing features of Recipeezz and begin your journey to stress-free
                 cooking!
             </p>
-            <button class="signup2" onclick="window.location.href='signup.html'">Sign Up Now</button>
+            <button class="button2" onclick="window.location.href='signup.html'">Sign Up Now</button>
         </section>
     </main>
-    <footer>
-        <p>&copy; 2025 Recipeezz. Made By Ibrar Amin & Soumodip Madhu</p>
-    </footer>
-    <script src="landing-page.js"></script>
+    <?php require_once "footer.php"; ?>
+    <!-- <script src="landing-page.js"></script> -->
 </body>
+
 </html>
