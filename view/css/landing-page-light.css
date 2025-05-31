@@ -1,0 +1,254 @@
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0px 100px;
+  margin-top: 0px;
+  height: 90vh;
+  background-color: #f9f9f9;
+  transition: background-color 0.3s ease;
+}
+
+.hero-left {
+  display: flex;
+  flex-direction: column;
+  animation: lefttocenter 0.8s ease-out forwards;
+}
+
+.hero-right {
+  animation: rigthtocenter 0.8s ease-out forwards;
+}
+
+.hero-title {
+  font-size: 100px;
+  font-weight: bold;
+  color: #2c3e50;
+  margin: 0px;
+  transition: color 0.3s ease;
+}
+
+.hook-line {
+  font-size: 25px;
+  color: #555555;
+  margin-bottom: 10px;
+  transition: color 0.3s ease;
+}
+
+.hero-recipe-search-form {
+  display: flex;
+  background-color: #ffffff;
+  border-radius: 50px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.12);
+  padding: 10px;
+  max-width: 600px;
+  margin-bottom: 25px;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hero-recipe-search-field {
+  flex-grow: 1;
+  border: none;
+  outline: none;
+  padding: 15px 12px;
+  font-size: 15px;
+  width: 500px;
+  background-color: transparent;
+  color: #333333;
+  transition: color 0.3s ease;
+}
+.hero-recipe-search-field::placeholder {
+  color: #aaaaaa;
+  transition: color 0.3s ease;
+}
+
+.hero-search-button {
+  background-color: #ff6347;
+  color: white;
+  border: none;
+  border-radius: 50px;
+  padding: 15px 30px;
+  font-size: 1.1em;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+  margin-left: 10px;
+}
+
+.hero-search-button:hover {
+  background-color: #e55337;
+}
+
+.hero-popular-searches {
+  font-size: 20px;
+  color: #555555;
+  transition: color 0.3s ease;
+}
+
+.hero-popular-searches a {
+  color: #ff6347;
+  text-decoration: none;
+  margin-left: 5px;
+  transition: color 0.3s ease;
+}
+
+.hero-popular-searches a:hover {
+  text-decoration: underline;
+}
+
+.hero-left-image {
+  width: 700px;
+  height: 700px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 10px solid #ffffff;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.features {
+  padding: 25px;
+  text-align: center;
+}
+.features h2,
+.popular-recipes h2,
+.user-reviews h2,
+.about h2,
+.signup h2 {
+  color: #2c3e50;
+  transition: color 0.3s ease;
+}
+
+.features-grid {
+  display: grid;
+  gap: 30px;
+  justify-content: center;
+}
+
+.feature-item {
+  background-color: #f9f9f9;
+  padding: 25px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease,
+    background-color 0.3s ease;
+  width: 1000px;
+}
+
+.feature-item:hover {
+  transform: scale(1.05);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.12);
+}
+
+.feature-item h3 {
+  font-size: 30px;
+  color: #ff6347;
+  transition: color 0.3s ease;
+}
+.feature-item p {
+  color: #555555;
+  transition: color 0.3s ease;
+}
+
+.popular-recipes {
+  margin: 50px;
+  text-align: center;
+}
+
+.popular-recipes-grid {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.recipe-card {
+  background-color: #f9f9f9;
+  margin: 20px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.2);
+  transition: transform ease 0.3s, background-color 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+.recipe-card img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 10px solid #ffffff;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  margin: 0 auto;
+  display: block;
+  margin-top: 15px;
+}
+
+.recipe-title {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #ffffff;
+  text-align: center;
+  font-size: 25px;
+  border-radius: 0 0 20px 20px;
+  padding: 10px;
+  margin-top: 15px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.recipe-card:hover {
+  transform: scale(1.05);
+}
+
+.user-reviews {
+  margin: 20px;
+  text-align: center;
+}
+
+.reviews-grid {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.review-card {
+  background-color: #ffffff;
+  border-left: 5px solid #ff6347;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+  width: calc(33% - 40px);
+  min-width: 280px;
+  transition: background-color 0.3s ease, border-color 0.3s ease,
+    box-shadow 0.3s ease;
+}
+.review-card p {
+  color: #333333;
+  transition: color 0.3s ease;
+}
+.review-card span {
+  font-style: italic;
+  color: #555555;
+  transition: color 0.3s ease;
+}
+
+.about,
+.signup {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.button2{
+  padding: 10px 15px;
+  border-radius: 10px;
+}
+
+.about {
+  margin: 30px 0;
+  background-color: #fffaf0;
+  transition: background-color 0.3s ease;
+}
+.about p {
+  color: #333333;
+  transition: color 0.3s ease;
+}

@@ -1,0 +1,108 @@
+.dashboard-section h2 {
+  border-bottom: 2px solid #ff6347; /* from your dashboard.css */
+  padding-bottom: 10px;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+.grocery-list-container,
+.pantry-items-container {
+  margin-top: 20px;
+}
+.grocery-category {
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #eee;
+  border-radius: 5px;
+  background-color: #fdfdfd;
+}
+.grocery-category h3 {
+  margin-top: 0;
+  font-size: 1.2em;
+  color: #333;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 5px;
+}
+.grocery-item,
+.pantry-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 5px;
+  border-bottom: 1px solid #f0f0f0;
+}
+.grocery-item:last-child,
+.pantry-item:last-child {
+  border-bottom: none;
+}
+.grocery-item input[type="checkbox"] {
+  margin-right: 10px;
+  transform: scale(1.2);
+}
+.grocery-item.purchased .item-name,
+.grocery-item.purchased .item-details {
+  text-decoration: line-through;
+  color: #aaa;
+}
+.item-details {
+  font-size: 0.9em;
+  color: #555;
+}
+.pantry-item .item-actions button {
+  margin-left: 5px;
+  font-size: 0.8em;
+}
+.form-inline {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+  align-items: flex-end;
+}
+.form-inline label {
+  margin-bottom: 5px;
+  font-size: 0.9em;
+}
+.form-inline input[type="text"],
+.form-inline input[type="number"],
+.form-inline select {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 0.95em;
+}
+.form-inline button {
+  padding: 8px 15px;
+  background-color: #5cb85c;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+.form-inline button:hover {
+  background-color: #4cae4c;
+}
+.action-buttons button {
+  margin-right: 10px;
+  padding: 8px 12px;
+}
+.purchased {
+  text-decoration: line-through;
+  color: grey;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+li {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 0;
+  border-bottom: 1px solid #eee;
+}
+input[type="text"] {
+  margin-right: 10px;
+  padding: 5px;
+}
+button {
+  padding: 5px 10px;
+}

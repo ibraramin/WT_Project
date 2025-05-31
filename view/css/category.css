@@ -1,0 +1,49 @@
+#saved-filters-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+#saved-filters-list li {
+  background-color: #f9f9f9;
+  border: 1px solid #eee;
+  padding: 10px;
+  margin-bottom: 8px;
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#saved-filters-list li .filter-details {
+  font-size: 0.9em;
+  color: #555;
+}
+
+#saved-filters-list button {
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 0.8em;
+}
+
+#saved-filters-list button:hover {
+  background-color: #c0392b;
+}
+
+.filter-section-columns {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 10px;
+}
+
+.styled-list li {
+  display: flex;
+  align-items: center;
+}
+
+.styled-list input[type="checkbox"] {
+  margin-right: 8px;
+}
