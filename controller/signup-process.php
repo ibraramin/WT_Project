@@ -18,13 +18,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $conpassword   = $_POST["confirm-password"] ?? '';
     $errorMessages = [];
 
-
     if (empty($username)) {
         $errorMessages[] = "Username is required.";
     } elseif (strlen($username) < 3) {
         $errorMessages[] = "Username must be at least 3 characters long.";
     }
-
 
     if (empty($email)) {
         $errorMessages[] = "Email address is required.";
@@ -37,7 +35,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     } elseif (strlen($password) < 6) {
         $errorMessages[] = "Password must be at least 6 characters long.";
     }
-
 
     if (empty($conpassword)) {
         $errorMessages[] = "Confirm password is required.";
